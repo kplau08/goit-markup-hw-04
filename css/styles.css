@@ -553,6 +553,7 @@ h4 {
 
 .project-cards {
   max-width: 1440px;
+  text-align: center;
 }
 .project-cards ul {
   display: flex;
