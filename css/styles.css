@@ -116,13 +116,15 @@ ul {
 }
 
 .navigation {
-  width:1440px;
+  width: 1440px;
   display: flex;
   height: 72px;
   align-items: baseline;
   border-bottom: 1px solid var(--cornflower);
-background: var(--white);
-box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  background: var(--white);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-link {
@@ -163,7 +165,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   width: 1440px;
   height: 600px;
   position: relative;
-  background-image:url("/images/optimized/hero-image-optimized.jpg")
+  background-image: url("/images/optimized/hero-image-optimized.jpg");
 }
 
 .hero-slogan {
@@ -427,8 +429,8 @@ h4 {
   margin: 0 156px 120px;
 }
 
-.icon-client{
-  border:1px solid hsla(235, 5%, 58%, 1);
+.icon-client {
+  border: 1px solid hsla(235, 5%, 58%, 1);
 }
 
 /* END OF CUSTOMER SECTION */
@@ -501,57 +503,53 @@ h4 {
 
 /* BUTTONS SECTION */
 
-.navigation-buttons{
+.navigation-buttons {
   width: 1440px;
   display: flex;
   justify-content: center;
-  gap:24px;
-  padding-top:96px;
-  margin-bottom:72px;
-  
-
+  gap: 24px;
+  padding-top: 96px;
+  margin-bottom: 72px;
 }
 .portfolio-button {
-
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid var(--cornflower)
+  border: 1px solid var(--cornflower);
   background: var(--cloud);
 
-color: var(--iris);
-text-align: center;
+  color: var(--iris);
+  text-align: center;
 
-/* Button Text */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
 }
 
-.portfolio-button:hover, .portfolio-button:focus {
-border-radius: 4px;
-background: var(--ocean);
-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+.portfolio-button:hover,
+.portfolio-button:focus {
+  border-radius: 4px;
+  background: var(--ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 
-color: var(--white);
-text-align: center;
+  color: var(--white);
+  text-align: center;
 
-/* Button Text */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
-cursor:pointer;
-
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 /* PROJECT CARDS SECTION */
-
-
 
 .project-cards ul {
   display: flex;
@@ -560,20 +558,21 @@ cursor:pointer;
   width: 80%;
   gap: 24px;
   justify-content: center;
-  margin-bottom:120px;
-  padding-right:156px;
+  margin-bottom: 120px;
+  padding-right: 156px;
 }
 
-.project-caption{
-  padding-left:16px;
-  margin-top:32px;
-  margin-bottom:32px;
+.project-caption {
+  padding-left: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
-.project-cards li:hover{
-border: 1px solid var(--cloud);
-background: var(--white);
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-cursor:pointer;
+.project-cards li:hover {
+  border: 1px solid var(--cloud);
+  background: var(--white);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  cursor: pointer;
 }
-
