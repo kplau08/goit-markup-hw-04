@@ -165,7 +165,8 @@ ul {
   width: 1440px;
   height: 600px;
   position: relative;
-  background-image: url("/images/optimized/hero-image-optimized.jpg");
+  background: var(--grey) center/cover
+    url("/images/optimized/hero-image-optimized.jpg") no-repeat;
 }
 
 .hero-slogan {
