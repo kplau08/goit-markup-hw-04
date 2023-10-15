@@ -116,9 +116,13 @@ ul {
 }
 
 .navigation {
+  width:1440px;
   display: flex;
   height: 72px;
   align-items: baseline;
+  border-bottom: 1px solid var(--cornflower);
+background: var(--white);
+box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-link {
@@ -159,6 +163,7 @@ ul {
   width: 1440px;
   height: 600px;
   position: relative;
+  background-image:url("/images/optimized/hero-image-optimized.jpg")
 }
 
 .hero-slogan {
@@ -422,6 +427,10 @@ h4 {
   margin: 0 156px 120px;
 }
 
+.icon-client{
+  border:1px solid hsla(235, 5%, 58%, 1);
+}
+
 /* END OF CUSTOMER SECTION */
 
 /* START OF FOOTER SECTION */
@@ -519,14 +528,52 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
+}
+
+.portfolio-button:hover, .portfolio-button:focus {
+border-radius: 4px;
+background: var(--ocean);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+
+color: var(--white);
+text-align: center;
+
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+cursor:pointer;
 
 }
 
 /* PROJECT CARDS SECTION */
 
-.project-cards {
+
+
+.project-cards ul {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom:120px;
+  padding-right:156px;
 }
 
+.project-caption{
+  padding-left:16px;
+  margin-top:32px;
+  margin-bottom:32px;
+}
+
+.project-cards li:hover{
+border: 1px solid var(--cloud);
+background: var(--white);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+cursor:pointer;
+}
 
